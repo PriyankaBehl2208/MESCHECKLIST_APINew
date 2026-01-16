@@ -1,4 +1,21 @@
-﻿# Ignore appsettings files
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.vspscc
+*.vssscc
+.vs/
+
+# Logs
+*.log
+
+# Secrets
 appsettings.json
-appsettings.Development.json
 appsettings.*.json
+
+# Others
+*.db
+
