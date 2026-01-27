@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EKI00263\\Desktop\\tester\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {}
+    "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EKI00263\\Desktop\\tester\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {
+    "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EKI00263\\Desktop\\tester\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
+        "projectUniqueName": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
         "projectName": "MESCHECKLIST",
-        "projectPath": "C:\\Users\\EKI00263\\Desktop\\tester\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
+        "projectPath": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
         "packagesPath": "C:\\Users\\EKI00263\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EKI00263\\Desktop\\tester\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\obj\\",
+        "outputPath": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,6 +66,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[23.26.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.26.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

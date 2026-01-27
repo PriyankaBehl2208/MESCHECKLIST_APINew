@@ -41,6 +41,338 @@
         }
       }
     },
+    "/api/MesChecklist/GET_ENGINEVALUE": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_ENGINE_PIN"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_ENGINE_PIN"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_ENGINE_PIN"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_ENGINE_PIN"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/GETMAIN_LIST": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_GETMAIN_LIST"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_GETMAIN_LIST"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_GETMAIN_LIST"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_GETMAIN_LIST"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UploadImage": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Engineno": {
+                    "type": "string"
+                  },
+                  "MASTER_ID": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                },
+                "Engineno": {
+                  "style": "form"
+                },
+                "MASTER_ID": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_REMARKS": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/FINAL_SAVE": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/FINAL_SAVE_REVIEW": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_STATUSOK": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/STATUSDONE_OK": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/GETMAIN_LIST_REVIEW": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LIST"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LIST"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LIST"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LIST"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -83,6 +415,46 @@
   },
   "components": {
     "schemas": {
+      "MEPREPDIMODEL_GETMAIN_LIST": {
+        "type": "object",
+        "properties": {
+          "department": {
+            "type": "string",
+            "nullable": true
+          },
+          "engineno": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelno": {
+            "type": "string",
+            "nullable": true
+          },
+          "pin": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MESPREPDI_UPDATEREMARKS": {
+        "type": "object",
+        "properties": {
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "remarks_ID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "MESVALIDATE_USER": {
         "type": "object",
         "properties": {
@@ -91,6 +463,66 @@
             "nullable": true
           },
           "passward": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MES_PREPDI_ENGINE_PIN": {
+        "type": "object",
+        "properties": {
+          "pin": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MES_PREPDI_Engine": {
+        "type": "object",
+        "properties": {
+          "engine_no": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MES_PREPDI_GETMAIN_LIST": {
+        "type": "object",
+        "properties": {
+          "department": {
+            "type": "string",
+            "nullable": true
+          },
+          "engineno": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelno": {
+            "type": "string",
+            "nullable": true
+          },
+          "pin": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MES_PREPDI_UPDATEREMARKS": {
+        "type": "object",
+        "properties": {
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "remarks_ID": {
             "type": "string",
             "nullable": true
           }

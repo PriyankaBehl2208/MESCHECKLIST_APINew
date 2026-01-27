@@ -1,6 +1,160 @@
 [
   {
     "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "FINAL_SAVE",
+    "RelativePath": "api/MesChecklist/FINAL_SAVE",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_Engine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "FINALFINAL_SAVE_REVIEW_SAVE",
+    "RelativePath": "api/MesChecklist/FINAL_SAVE_REVIEW",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_Engine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "GET_ENGINEVALUE",
+    "RelativePath": "api/MesChecklist/GET_ENGINEVALUE",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_ENGINE_PIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "GETMAIN_LIST",
+    "RelativePath": "api/MesChecklist/GETMAIN_LIST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_GETMAIN_LIST",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "GETMAIN_LIST_REVIEW",
+    "RelativePath": "api/MesChecklist/GETMAIN_LIST_REVIEW",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MEPREPDIMODEL_GETMAIN_LIST",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "STATUSDONE_OK",
+    "RelativePath": "api/MesChecklist/STATUSDONE_OK",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_REMARKS",
+    "RelativePath": "api/MesChecklist/UPDATE_REMARKS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_STATUSOK",
+    "RelativePath": "api/MesChecklist/UPDATE_STATUSOK",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UploadImage",
+    "RelativePath": "api/MesChecklist/UploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Engineno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MASTER_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
     "Method": "VALIDATE_USER",
     "RelativePath": "api/MesChecklist/VALIDATE_USER",
     "HttpMethod": "POST",
