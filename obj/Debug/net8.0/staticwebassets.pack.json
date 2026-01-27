@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_111539_BUX803468_197.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_111539_BUX803468_197.png"
+    },
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121519_ssa_197.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_121519_ssa_197.png"
+    },
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121544_ssa_197.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_121544_ssa_197.png"
+    },
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121658_BUX803468_197.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_121658_BUX803468_197.png"
+    },
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142526_BUX803468_220.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_142526_BUX803468_220.png"
+    },
+    {
+      "Id": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142538_BUX803468_221.png",
+      "PackagePath": "staticwebassets\\2026-01\\20012026_142538_BUX803468_221.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MESCHECKLIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MESCHECKLIST.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MESCHECKLIST.props",
+      "PackagePath": "build\\MESCHECKLIST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MESCHECKLIST.props",
+      "PackagePath": "buildMultiTargeting\\MESCHECKLIST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MESCHECKLIST.props",
+      "PackagePath": "buildTransitive\\MESCHECKLIST.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

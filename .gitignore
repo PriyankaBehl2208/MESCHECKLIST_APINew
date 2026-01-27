@@ -1,21 +1,8 @@
-# Build results
-bin/
-obj/
 
-# User-specific files
-*.user
-*.suo
-*.vspscc
-*.vssscc
-.vs/
-
-# Logs
-*.log
 
 # Secrets
 appsettings.json
 appsettings.*.json
 
-# Others
-*.db
+
 

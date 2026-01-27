@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "LrigvfFcouiRD1KOveQbvVTjJYV8Uh6SkUFxVowOI3Y=",
+  "Source": "MESCHECKLIST",
+  "BasePath": "_content/MESCHECKLIST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MESCHECKLIST\\wwwroot",
+      "Source": "MESCHECKLIST",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_111539_BUX803468_197.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_111539_BUX803468_197#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tfmx47w4yn",
+      "Integrity": "2e+hHQ5hqkQqGceESrQGrR8BJaV5H9l3NR49/zjLsSc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_111539_BUX803468_197.png"
+    },
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121519_ssa_197.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_121519_ssa_197#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4vhtbm3umo",
+      "Integrity": "sLLHF1tuGxFoyuWtmkrVt4FcCpCEi7E0J4hI4AJCGQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_121519_ssa_197.png"
+    },
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121544_ssa_197.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_121544_ssa_197#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9logsezlh1",
+      "Integrity": "gxsSPwaQzND9Qwb1KyFNUOAREGUpB8QI8GBIt+ScolU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_121544_ssa_197.png"
+    },
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121658_BUX803468_197.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_121658_BUX803468_197#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d6pzr10o5p",
+      "Integrity": "y/YIXvAns5XzyKZlJpeshc2NkGdV51vKZ3WbUV19gDo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_121658_BUX803468_197.png"
+    },
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142526_BUX803468_220.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_142526_BUX803468_220#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "751766ux6v",
+      "Integrity": "dUCl/szq13+T1W/CMth7XW79xCWsmFG7/hByRsZungU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_142526_BUX803468_220.png"
+    },
+    {
+      "Identity": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142538_BUX803468_221.png",
+      "SourceId": "MESCHECKLIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\",
+      "BasePath": "_content/MESCHECKLIST",
+      "RelativePath": "2026-01/20012026_142538_BUX803468_221#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqo5xds6ba",
+      "Integrity": "jJ41d3jkh1DJMtjzexIeWusz8c8HVYmbLgZoJc9ebG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2026-01\\20012026_142538_BUX803468_221.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "2026-01/20012026_111539_BUX803468_197.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_111539_BUX803468_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2e+hHQ5hqkQqGceESrQGrR8BJaV5H9l3NR49/zjLsSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 05:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2e+hHQ5hqkQqGceESrQGrR8BJaV5H9l3NR49/zjLsSc="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_111539_BUX803468_197.tfmx47w4yn.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_111539_BUX803468_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2e+hHQ5hqkQqGceESrQGrR8BJaV5H9l3NR49/zjLsSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 05:45:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfmx47w4yn"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_111539_BUX803468_197.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2e+hHQ5hqkQqGceESrQGrR8BJaV5H9l3NR49/zjLsSc="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121519_ssa_197.4vhtbm3umo.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121519_ssa_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLLHF1tuGxFoyuWtmkrVt4FcCpCEi7E0J4hI4AJCGQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:45:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vhtbm3umo"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_121519_ssa_197.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLLHF1tuGxFoyuWtmkrVt4FcCpCEi7E0J4hI4AJCGQM="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121519_ssa_197.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121519_ssa_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLLHF1tuGxFoyuWtmkrVt4FcCpCEi7E0J4hI4AJCGQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:45:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLLHF1tuGxFoyuWtmkrVt4FcCpCEi7E0J4hI4AJCGQM="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121544_ssa_197.9logsezlh1.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121544_ssa_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxsSPwaQzND9Qwb1KyFNUOAREGUpB8QI8GBIt+ScolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:45:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9logsezlh1"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_121544_ssa_197.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxsSPwaQzND9Qwb1KyFNUOAREGUpB8QI8GBIt+ScolU="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121544_ssa_197.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121544_ssa_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "453646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxsSPwaQzND9Qwb1KyFNUOAREGUpB8QI8GBIt+ScolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:45:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxsSPwaQzND9Qwb1KyFNUOAREGUpB8QI8GBIt+ScolU="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121658_BUX803468_197.d6pzr10o5p.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121658_BUX803468_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/YIXvAns5XzyKZlJpeshc2NkGdV51vKZ3WbUV19gDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:46:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6pzr10o5p"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_121658_BUX803468_197.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/YIXvAns5XzyKZlJpeshc2NkGdV51vKZ3WbUV19gDo="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_121658_BUX803468_197.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_121658_BUX803468_197.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/YIXvAns5XzyKZlJpeshc2NkGdV51vKZ3WbUV19gDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 06:46:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/YIXvAns5XzyKZlJpeshc2NkGdV51vKZ3WbUV19gDo="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_142526_BUX803468_220.751766ux6v.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142526_BUX803468_220.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "421191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dUCl/szq13+T1W/CMth7XW79xCWsmFG7/hByRsZungU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 08:55:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "751766ux6v"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_142526_BUX803468_220.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dUCl/szq13+T1W/CMth7XW79xCWsmFG7/hByRsZungU="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_142526_BUX803468_220.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142526_BUX803468_220.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "421191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dUCl/szq13+T1W/CMth7XW79xCWsmFG7/hByRsZungU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 08:55:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dUCl/szq13+T1W/CMth7XW79xCWsmFG7/hByRsZungU="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_142538_BUX803468_221.cqo5xds6ba.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142538_BUX803468_221.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "445612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJ41d3jkh1DJMtjzexIeWusz8c8HVYmbLgZoJc9ebG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 08:55:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqo5xds6ba"
+        },
+        {
+          "Name": "label",
+          "Value": "2026-01/20012026_142538_BUX803468_221.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJ41d3jkh1DJMtjzexIeWusz8c8HVYmbLgZoJc9ebG0="
+        }
+      ]
+    },
+    {
+      "Route": "2026-01/20012026_142538_BUX803468_221.png",
+      "AssetFile": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\wwwroot\\2026-01\\20012026_142538_BUX803468_221.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "445612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJ41d3jkh1DJMtjzexIeWusz8c8HVYmbLgZoJc9ebG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 Jan 2026 08:55:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJ41d3jkh1DJMtjzexIeWusz8c8HVYmbLgZoJc9ebG0="
+        }
+      ]
+    }
+  ]
+}

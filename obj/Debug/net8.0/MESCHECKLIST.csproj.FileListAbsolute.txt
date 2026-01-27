@@ -86,6 +86,7 @@ C:\Users\EKI00263\Desktop\tester\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debu
 C:\Users\EKI00263\Desktop\tester\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\ref\MESCHECKLIST.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\appsettings.Development.json
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\appsettings.json
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\MESCHECKLIST.staticwebassets.runtime.json
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\MESCHECKLIST.staticwebassets.endpoints.json
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\MESCHECKLIST.exe
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\MESCHECKLIST.deps.json
@@ -115,12 +116,15 @@ C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\M
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.ClientModel.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
@@ -144,6 +148,10 @@ C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\r
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\MESCHECKLIST.csproj.AssemblyReference.cache
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\MESCHECKLIST.GeneratedMSBuildEditorConfig.editorconfig
@@ -170,11 +178,3 @@ C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\r
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\MESCHECKLIST.pdb
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\MESCHECKLIST.genruntimeconfig.cache
 C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\obj\Debug\net8.0\ref\MESCHECKLIST.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Priyanka\PLANT4_PMS\MESCHECKLIST\MESCHECKLIST\MESCHECKLIST\bin\Debug\net8.0\MESCHECKLIST.staticwebassets.runtime.json
