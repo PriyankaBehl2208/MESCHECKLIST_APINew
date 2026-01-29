@@ -117,7 +117,7 @@ namespace MESCHECKLIST.Controllers
             }
         }
 
-
+        [Authorize]
 
         [HttpPost("GETMAIN_LIST")]
         public async Task<IActionResult> GETMAIN_LIST([FromBody] MES_PREPDI_GETMAIN_LIST objUserModel)
@@ -134,7 +134,7 @@ namespace MESCHECKLIST.Controllers
             }
         }
 
-
+        [Authorize]
         [HttpPost("UploadImage")]
         public async Task<IActionResult> UploadImage([FromForm] MES_PREPDI_UploadImage fileModel)
         {
@@ -163,7 +163,7 @@ namespace MESCHECKLIST.Controllers
 
         }
 
-
+        [Authorize]
 
         [HttpPost("UPDATE_REMARKS")]
         public async Task<IActionResult> UPDATE_REMARKS([FromBody] MES_PREPDI_UPDATEREMARKS objUserModel)
@@ -180,7 +180,7 @@ namespace MESCHECKLIST.Controllers
             }
         }
 
-
+        [Authorize]
         [HttpPost("FINAL_SAVE")]
         public async Task<IActionResult> FINAL_SAVE([FromBody] MES_PREPDI_Engine objUserModel)
         {
@@ -197,8 +197,8 @@ namespace MESCHECKLIST.Controllers
         }
 
 
+        [Authorize]
 
-        
         [HttpPost("FINAL_SAVE_REVIEW")]
         public async Task<IActionResult> FINALFINAL_SAVE_REVIEW_SAVE([FromBody] MES_PREPDI_Engine objUserModel)
         {
@@ -213,7 +213,7 @@ namespace MESCHECKLIST.Controllers
                 return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
             }
         }
-
+        [Authorize]
 
         [HttpPost("UPDATE_STATUSOK")]
         public async Task<IActionResult> UPDATE_STATUSOK([FromBody] MESPREPDI_UPDATEREMARKS objUserModel)
@@ -232,9 +232,9 @@ namespace MESCHECKLIST.Controllers
 
 
 
-        
 
-       [HttpPost("STATUSDONE_OK")]
+        [Authorize]
+        [HttpPost("STATUSDONE_OK")]
         public async Task<IActionResult> STATUSDONE_OK([FromBody] MESPREPDI_UPDATEREMARKS objUserModel)
         {
             try
@@ -251,6 +251,7 @@ namespace MESCHECKLIST.Controllers
 
 
         [HttpPost("GETMAIN_LIST_REVIEW")]
+        [Authorize]
         public async Task<IActionResult> GETMAIN_LIST_REVIEW([FromBody] MEPREPDIMODEL_GETMAIN_LIST objUserModel)
         {
             try
