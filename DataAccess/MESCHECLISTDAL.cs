@@ -237,6 +237,52 @@ namespace MESCHECKLIST.DataAccess
         }
 
 
+
+        public async Task<DataTable> UPDATE_REMARKS_STAGE5(String Remarks, String RemarksID)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+                {
+                     new SqlParameter("@Remarks", Remarks),
+                      //new SqlParameter("@Modelno", Modelno),
+                      //new SqlParameter("@Pin", Pin),
+                      new SqlParameter("@RemarksID", RemarksID),
+                      //new SqlParameter("@Name", Name)
+
+
+
+
+                };
+                DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("UPDATE_REMARKS_STAGE5", parameters);
+                //
+
+
+                //DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("GET_LOGIN_LIST", parameters);
+                if (dt != null && dt.Rows.Count > 0)
+                {
+
+                    if (dt.Rows[0][0].ToString() == "NA")
+                    {
+                        return null;
+
+                    }
+                    else
+                    {
+                        return dt;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return null;
+        }
+
+
         public async Task<DataTable> UPDATE_STATUSOK(String Remarks, String RemarksID)
         {
             try
@@ -282,9 +328,51 @@ namespace MESCHECKLIST.DataAccess
         }
 
 
+        public async Task<DataTable> UPDATE_SATUS_STAGE5(String Remarks, String RemarksID)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+                {
+                     new SqlParameter("@Remarks", Remarks),
+                      //new SqlParameter("@Modelno", Modelno),
+                      //new SqlParameter("@Pin", Pin),
+                      new SqlParameter("@RemarksID", RemarksID),
+                      //new SqlParameter("@Name", Name)
 
 
-        
+
+
+                };
+                DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("UPDATE_STATUS_STAGE5", parameters);
+                //
+
+
+                //DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("GET_LOGIN_LIST", parameters);
+                if (dt != null && dt.Rows.Count > 0)
+                {
+
+                    if (dt.Rows[0][0].ToString() == "NA")
+                    {
+                        return null;
+
+                    }
+                    else
+                    {
+                        return dt;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return null;
+        }
+
+
         public async Task<DataTable> STATUSDONE_DONEOK(String Remarks, String RemarksID)
         {
             try
@@ -370,8 +458,47 @@ namespace MESCHECKLIST.DataAccess
             return null;
         }
 
-        
 
+        public async Task<DataTable> FINAL_SAVE_STAGE5(String EngineNO)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+                {
+                     new SqlParameter("@CHASSIS_NO", EngineNO)
+
+
+
+
+
+                };
+                DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("STAGE5_FINAL_SAVE", parameters);
+                //
+
+
+                //DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("GET_LOGIN_LIST", parameters);
+                if (dt != null && dt.Rows.Count > 0)
+                {
+
+                    if (dt.Rows[0][0].ToString() == "NA")
+                    {
+                        return null;
+
+                    }
+                    else
+                    {
+                        return dt;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return null;
+        }
 
 
         public async Task<DataTable> FINAL_SAVE_REVIEW(String EngineNO)
@@ -458,6 +585,54 @@ namespace MESCHECKLIST.DataAccess
             }
             return null;
         }
+
+
+
+
+        public async Task<DataTable> INSPECTION_LIST_REVIEW(String Modelno, String Pin, String Engineno, String Name)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+                {
+                    
+                      new SqlParameter("@Model_no", Modelno),
+                      new SqlParameter("@Pin_no", Pin),
+                      new SqlParameter("@EngineNO", Engineno),
+                      new SqlParameter("@Name", Name)
+
+
+
+
+                };
+                DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("GET_CHECKLIST_LIST_INSPECTION5", parameters);
+                //
+
+
+                //DataTable dt = await _commonDAL.ExecuteStoredProcedureAsync("GET_LOGIN_LIST", parameters);
+                if (dt != null && dt.Rows.Count > 0)
+                {
+
+                    if (dt.Rows[0][0].ToString() == "NA")
+                    {
+                        return null;
+
+                    }
+                    else
+                    {
+                        return dt;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            return null;
+        }
+
 
     }
 }

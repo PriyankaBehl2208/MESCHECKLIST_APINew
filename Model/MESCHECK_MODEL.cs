@@ -101,4 +101,24 @@
 
 
     }
+
+
+
+    public class MEPREPDIMODEL_GETMAIN_LISTInspection
+    {
+      
+        public String? Engineno { get; set; }
+
+
+
+        public String? Modelno { get; set; }
+        public String? Pin { get; set; }
+
+        public String? Name { get; set; }
+
+
+
+    }
+
+
 }

@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "FINAL_SAVE_STAGE5",
+    "RelativePath": "api/MesChecklist/FINAL_SAVE_STAGE5",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_Engine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
     "Method": "GET_ENGINEVALUE",
     "RelativePath": "api/MesChecklist/GET_ENGINEVALUE",
     "HttpMethod": "POST",
@@ -81,6 +97,22 @@
   },
   {
     "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "INSPECTION_LIST_REVIEW",
+    "RelativePath": "api/MesChecklist/INSPECTION_LIST_REVIEW",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MEPREPDIMODEL_GETMAIN_LISTInspection",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
     "Method": "STATUSDONE_OK",
     "RelativePath": "api/MesChecklist/STATUSDONE_OK",
     "HttpMethod": "POST",
@@ -106,6 +138,38 @@
       {
         "Name": "objUserModel",
         "Type": "MESCHECKLIST.Model.MES_PREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_REMARKS_STAGE5",
+    "RelativePath": "api/MesChecklist/UPDATE_REMARKS_STAGE5",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_SATUS_STAGE5",
+    "RelativePath": "api/MesChecklist/UPDATE_SATUS_STAGE5",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS",
         "IsRequired": true
       }
     ],
