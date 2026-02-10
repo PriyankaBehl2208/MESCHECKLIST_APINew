@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {}
+    "C:\\Project\\Project\\Project\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {}
   },
   "projects": {
-    "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {
+    "C:\\Project\\Project\\Project\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
+        "projectUniqueName": "C:\\Project\\Project\\Project\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
         "projectName": "MESCHECKLIST",
-        "projectPath": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
-        "packagesPath": "C:\\Users\\EKI00263\\.nuget\\packages\\",
-        "outputPath": "C:\\Priyanka\\PLANT4_PMS\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\obj\\",
+        "projectPath": "C:\\Project\\Project\\Project\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST.csproj",
+        "packagesPath": "C:\\Users\\EKI00285\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Project\\Project\\MESCHECKLIST\\MESCHECKLIST\\MESCHECKLIST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\EKI00263\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EKI00285\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
