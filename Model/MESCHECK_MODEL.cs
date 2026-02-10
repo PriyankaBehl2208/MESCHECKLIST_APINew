@@ -60,6 +60,17 @@
 
     }
 
+    public class MES_PREPDI_Engine_Stages
+
+    {
+
+        public string? PIN_NO { get; set; }
+
+        public Int32 Department { get; set; }
+
+
+
+    }
     public class MES_PREPDI_Engine
 
     {
@@ -72,7 +83,6 @@
 
     }
 
-
     public class MESPREPDI_UPDATEREMARKS
 
     {
@@ -84,7 +94,17 @@
 
 
     }
+    public class MESPREPDI_UPDATEREMARKS_Stage7
 
+    {
+
+        public string? Remarks { get; set; }
+
+        public string? Remarks_ID { get; set; }
+
+        public int Department { get; set; }
+
+    }
 
     public class MEPREPDIMODEL_GETMAIN_LIST
     {
@@ -101,4 +121,24 @@
 
 
     }
+
+
+
+    public class MEPREPDIMODEL_GETMAIN_LISTInspection
+    {
+      
+        public String? Engineno { get; set; }
+
+
+
+        public String? Modelno { get; set; }
+        public String? Pin { get; set; }
+
+        public String? Name { get; set; }
+
+
+
+    }
+
+
 }

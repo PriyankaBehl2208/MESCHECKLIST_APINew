@@ -193,6 +193,42 @@
         }
       }
     },
+    "/api/MesChecklist/UPDATE_REMARKS_STAGE5": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MesChecklist/FINAL_SAVE": {
       "post": {
         "tags": [
@@ -265,7 +301,79 @@
         }
       }
     },
+    "/api/MesChecklist/FINAL_SAVE_STAGE5": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MesChecklist/UPDATE_STATUSOK": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_SATUS_STAGE5": {
       "post": {
         "tags": [
           "MesChecklist"
@@ -373,6 +481,330 @@
         }
       }
     },
+    "/api/MesChecklist/INSPECTION_LIST_REVIEW": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/GETMAIN_LIST_MECHANICAL_LIST": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_SATUS_STAGE6": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_REMARKS_STAGE6": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_UPDATEREMARKS"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/FINAL_SAVE_STAGE6": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/GETMAIN_LIST_HNPC_LIST": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MEPREPDIMODEL_GETMAIN_LISTInspection"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_SATUS_STAGE7": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/UPDATE_REMARKS_STAGE7": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MESPREPDI_UPDATEREMARKS_Stage7"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MesChecklist/FINAL_SAVE_STAGE7": {
+      "post": {
+        "tags": [
+          "MesChecklist"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine_Stages"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine_Stages"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine_Stages"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MES_PREPDI_Engine_Stages"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -441,6 +873,28 @@
         },
         "additionalProperties": false
       },
+      "MEPREPDIMODEL_GETMAIN_LISTInspection": {
+        "type": "object",
+        "properties": {
+          "engineno": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelno": {
+            "type": "string",
+            "nullable": true
+          },
+          "pin": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "MESPREPDI_UPDATEREMARKS": {
         "type": "object",
         "properties": {
@@ -451,6 +905,24 @@
           "remarks_ID": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MESPREPDI_UPDATEREMARKS_Stage7": {
+        "type": "object",
+        "properties": {
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "remarks_ID": {
+            "type": "string",
+            "nullable": true
+          },
+          "department": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -485,6 +957,20 @@
           "engine_no": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MES_PREPDI_Engine_Stages": {
+        "type": "object",
+        "properties": {
+          "piN_NO": {
+            "type": "string",
+            "nullable": true
+          },
+          "department": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
