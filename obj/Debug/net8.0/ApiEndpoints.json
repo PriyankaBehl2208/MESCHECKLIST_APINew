@@ -49,6 +49,38 @@
   },
   {
     "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "FINAL_SAVE_STAGE6",
+    "RelativePath": "api/MesChecklist/FINAL_SAVE_STAGE6",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_Engine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "FINAL_SAVE_STAGE7",
+    "RelativePath": "api/MesChecklist/FINAL_SAVE_STAGE7",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_Engine_Stages",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
     "Method": "GET_ENGINEVALUE",
     "RelativePath": "api/MesChecklist/GET_ENGINEVALUE",
     "HttpMethod": "POST",
@@ -74,6 +106,38 @@
       {
         "Name": "objUserModel",
         "Type": "MESCHECKLIST.Model.MES_PREPDI_GETMAIN_LIST",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "GETMAIN_LIST_HNPC_LIST",
+    "RelativePath": "api/MesChecklist/GETMAIN_LIST_HNPC_LIST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MEPREPDIMODEL_GETMAIN_LISTInspection",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "GETMAIN_LIST_MECHANICAL_LIST",
+    "RelativePath": "api/MesChecklist/GETMAIN_LIST_MECHANICAL_LIST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MEPREPDIMODEL_GETMAIN_LISTInspection",
         "IsRequired": true
       }
     ],
@@ -161,6 +225,38 @@
   },
   {
     "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_REMARKS_STAGE6",
+    "RelativePath": "api/MesChecklist/UPDATE_REMARKS_STAGE6",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MES_PREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_REMARKS_STAGE7",
+    "RelativePath": "api/MesChecklist/UPDATE_REMARKS_STAGE7",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS_Stage7",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
     "Method": "UPDATE_SATUS_STAGE5",
     "RelativePath": "api/MesChecklist/UPDATE_SATUS_STAGE5",
     "HttpMethod": "POST",
@@ -170,6 +266,38 @@
       {
         "Name": "objUserModel",
         "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_SATUS_STAGE6",
+    "RelativePath": "api/MesChecklist/UPDATE_SATUS_STAGE6",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MESCHECKLIST.Controllers.MesChecklistController",
+    "Method": "UPDATE_SATUS_STAGE7",
+    "RelativePath": "api/MesChecklist/UPDATE_SATUS_STAGE7",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objUserModel",
+        "Type": "MESCHECKLIST.Model.MESPREPDI_UPDATEREMARKS_Stage7",
         "IsRequired": true
       }
     ],

@@ -57,13 +57,14 @@ namespace MESCHECKLIST.Controllers
 
                     // Example: extract other values from your DataTable
                     var StageID = messages.Rows[0]["Stage_ID"].ToString();
-                    
 
+                    var Departmentval = messages.Rows[0]["Department"].ToString();
                     return Ok(new
                     {
                         statusCode = UDStatusCodes.OK,
                         StageID = StageID,
-                        token= token
+                        token = token,
+                        Department = Departmentval
 
                     });
                 }
@@ -340,6 +341,171 @@ namespace MESCHECKLIST.Controllers
                 return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
             }
         }
+
+
+
+
+    
+         //////////////// STAGE6////////////////////////////////////
+       
+        [HttpPost("GETMAIN_LIST_MECHANICAL_LIST")]
+        [Authorize]
+        public async Task<IActionResult> GETMAIN_LIST_MECHANICAL_LIST([FromBody] MEPREPDIMODEL_GETMAIN_LISTInspection objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.GETMAIN_LIST_MECHANICAL_LIST(objUserModel.Modelno, objUserModel.Pin, objUserModel.Engineno, objUserModel.Name);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+        [HttpPost("UPDATE_SATUS_STAGE6")]
+        [Authorize]
+        public async Task<IActionResult> UPDATE_SATUS_STAGE6([FromBody] MESPREPDI_UPDATEREMARKS objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.UPDATE_SATUS_STAGE6(objUserModel.Remarks, objUserModel.Remarks_ID);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+
+        [Authorize]
+
+        [HttpPost("UPDATE_REMARKS_STAGE6")]
+        public async Task<IActionResult> UPDATE_REMARKS_STAGE6([FromBody] MES_PREPDI_UPDATEREMARKS objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.UPDATE_REMARKS_STAGE6(objUserModel.Remarks, objUserModel.Remarks_ID);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+        [HttpPost("FINAL_SAVE_STAGE6")]
+        [Authorize]
+        public async Task<IActionResult> FINAL_SAVE_STAGE6([FromBody] MES_PREPDI_Engine objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.FINAL_SAVE_STAGE6(objUserModel.Engine_no);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+
+
+
+
+        
+
+        [HttpPost("GETMAIN_LIST_HNPC_LIST")]
+        [Authorize]
+        public async Task<IActionResult> GETMAIN_LIST_HNPC_LIST([FromBody] MEPREPDIMODEL_GETMAIN_LISTInspection objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.GETMAIN_LIST_HNPC_LIST(objUserModel.Modelno, objUserModel.Pin, objUserModel.Engineno, objUserModel.Name);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+
+        [HttpPost("UPDATE_SATUS_STAGE7")]
+        [Authorize]
+        public async Task<IActionResult> UPDATE_SATUS_STAGE7([FromBody] MESPREPDI_UPDATEREMARKS_Stage7 objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.UPDATE_SATUS_STAGE7(objUserModel.Remarks, objUserModel.Remarks_ID , objUserModel.Department);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+
+        [HttpPost("UPDATE_REMARKS_STAGE7")]
+        [Authorize]
+        public async Task<IActionResult> UPDATE_REMARKS_STAGE7([FromBody] MESPREPDI_UPDATEREMARKS_Stage7 objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.UPDATE_REMARKS_STAGE7(objUserModel.Remarks, objUserModel.Remarks_ID, objUserModel.Department);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+
+
+
+        [HttpPost("FINAL_SAVE_STAGE7")]
+        [Authorize]
+        public async Task<IActionResult> FINAL_SAVE_STAGE7([FromBody] MES_PREPDI_Engine_Stages objUserModel)
+        {
+            try
+            {
+                var messages = await _MESDAL.FINAL_SAVE_STAGE7(objUserModel.PIN_NO , objUserModel.Department);
+                return Ok(new { statusCode = UDStatusCodes.OK, message = messages });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("In UserController at ValidateUser: " + ex.Message);
+                return Ok(new { statusCode = UDStatusCodes.BadRequest, message = ex.Message });
+            }
+        }
+
+
+        
+
+
 
 
     }

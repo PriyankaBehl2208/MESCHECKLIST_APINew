@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MESCHECKLIST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08e807a86a6a7f9468266ed270f5e71fe362892b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cca351545baf74e7680061127e0e576a065ea3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MESCHECKLIST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MESCHECKLIST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
